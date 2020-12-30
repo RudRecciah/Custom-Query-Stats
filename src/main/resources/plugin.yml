@@ -1,0 +1,8 @@
+name: Customquerystats
+version: ${project.version}
+main: dev.rudrecciah.customquerystats.customquerystats.Main
+api-version: 1.16
+prefix: CustomQueryStats
+authors: [RudRecciah]
+description: Adds custom metadata to MOTDs for custom query data.
+website: https://rudrecciah.dev/

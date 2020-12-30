@@ -1,0 +1,88 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                           #
+#                  CustomQueryStats Config                  #
+#              Wow what a cool config - no one              #
+#                                                           #
+#  * * * * * * * * * * * * * * * * * * * * * * * * * * * *  #
+#  * Documentation:                                      *  #
+#  *                                                     *  #
+#  * interval:                                           *  #
+#  *    - time (in ticks) between MOTD updates           *  #
+#  *    - currently set to update every 30 minutes       *  #
+#  * silent:                                             *  #
+#  *    - toggles logging of MOTD updates                *  #
+#  *    - currently set to log updates                   *  #
+#  * verbose:                                            *  #
+#  *    - toggles verbose logging of MOTD updates        *  #
+#  *    - currently set to not log                       *  #
+#  * stats:                                              *  #
+#  *    - toggles for each stat logged                   *  #
+#  *    - currently set to log all stats                 *  #
+#  *    - disable some if recieving MOTD too long errors *  #
+#  * * * * * * * * * * * * * * * * * * * * * * * * * * * *  #
+#                                                           #
+#   https://rudrecciah.dev/customquerystats for more info   #
+#                                                           #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+interval: 36000
+silent: false
+verbose: false
+stats:
+  ANIMALS_BRED: true
+  AVIATE_ONE_CM: true
+  BEACON_INTERACTION: true
+  BELL_RING: true
+  BOAT_ONE_CM: true
+  BREWINGSTAND_INTERACTION: true
+  CAULDRON_FILLED: true
+  CAULDRON_USED: true
+  CHEST_OPENED: true
+  CLIMB_ONE_CM: true
+  CRAFTING_TABLE_INTERACTION: true
+  CROUCH_ONE_CM: true
+  DAMAGE_ABSORBED: true
+  DAMAGE_BLOCKED_BY_SHIELD: true
+  DAMAGE_DEALT: true
+  DAMAGE_DEALT_ABSORBED: true
+  DAMAGE_DEALT_RESISTED: true
+  DAMAGE_RESISTED: true
+  DAMAGE_TAKEN: true
+  DEATHS: true
+  DROP_COUNT: true
+  ENDERCHEST_OPENED: true
+  FALL_ONE_CM: true
+  FISH_CAUGHT: true
+  FLY_ONE_CM: true
+  FURNACE_INTERACTION: true
+  HORSE_ONE_CM: true
+  INTERACT_WITH_ANVIL: true
+  INTERACT_WITH_BLAST_FURNACE: true
+  INTERACT_WITH_CAMPFIRE: true
+  INTERACT_WITH_CARTOGRAPHY_TABLE: true
+  INTERACT_WITH_GRINDSTONE: true
+  INTERACT_WITH_LECTERN: true
+  INTERACT_WITH_LOOM: true
+  INTERACT_WITH_SMITHING_TABLE: true
+  INTERACT_WITH_SMOKER: true
+  INTERACT_WITH_STONECUTTER: true
+  ITEM_ENCHANTED: true
+  JUMP: true
+  LEAVE_GAME: true
+  MINECART_ONE_CM: true
+  MOB_KILLS: true
+  OPEN_BARREL: true
+  PIG_ONE_CM: true
+  PLAY_ONE_MINUTE: true
+  PLAYER_KILLS: true
+  RAID_TRIGGER: true
+  RAID_WIN: true
+  SHULKER_BOX_OPENED: true
+  SLEEP_IN_BED: true
+  SNEAK_TIME: true
+  SPRINT_ONE_CM: true
+  STRIDER_ONE_CM: true
+  SWIM_ONE_CM: true
+  TIME_SINCE_DEATH: true
+  TIME_SINCE_REST: true
+  TRADED_WITH_VILLAGER: true
+  WALK_ONE_CM: true
